@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator with Analysis API</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Joke Generator with Analysis API 🤖</h1>
+        <span class="big-emoji">🎭</span>
+        <div id="joke-container">
+            <p id="joke-text">Click the button below to fetch a joke!</p>
+        </div>
+        
+        <div id="analysis-result-container">
+            <p id="content-type">Content Type: </p>
+            <p id="language">Language: </p>
+            <p id="sentiment">Sentiment: </p>
+        </div>
+
+        <button onclick="fetchJokeAndAnalyze()">Fetch Joke &amp; Analyze 😄</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
